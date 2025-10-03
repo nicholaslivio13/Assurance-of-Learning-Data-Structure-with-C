@@ -1,5 +1,19 @@
-# Ignore pdf documents
+# Ignore macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore PDF files
 *.pdf
 
 # Ignore VS Code settings folder
 .vscode/
+
+# Optional: Ignore other common files
+*.log
+*.tmp
+*.temp
